@@ -18,8 +18,9 @@ It's not too hard. Here's what you have to do:
 8) Enter the following command: `chown -R 5050:5050 pgadmin` (you may have to prepend with `sudo`)
 9) (Windows only) type `exit` and hit enter
 10) Enter the following command and wait: `docker-compose up -d` (depending on your system this may take several minutes)
-11) Once your done type `docker-compose down` to shutdown the instance
-12) If something goes wrong and you don't know what, type `docker-compose logs --follow` to get a live view of the log files
+11) Access your control panel under [https://localhost:8080](https://localhost:8080) and login with `a@a.xyz`/`amogus`
+12) Once your done type `docker-compose down` to shutdown the instance
+13) If something goes wrong and you don't know what, type `docker-compose logs --follow` to get a live view of the log files
 
 ## Neat. And what now?
 
